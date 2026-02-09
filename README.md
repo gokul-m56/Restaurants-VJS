@@ -1,21 +1,23 @@
-#Restaurant Table Booking System
+#  Restaurant Table Booking System
+
 The Restaurant Table Booking System allows users to reserve tables by selecting a date, time, number of persons, and available table number. The system prevents double booking by checking existing reservations in Firebase Firestore.
-
+## Flask + Firebase Firestore
 An admin panel is provided to view all bookings, update booking status (booked, completed, cancelled), and delete bookings when needed. Authentication for admin access is handled securely using session-based login and environment variables.
-#Key Features
 
-📅 Online table booking system
+### Key Features
 
-🔁 Automatic conflict checking (no double booking)
+1. 📅 Online table booking system
 
-🔐 Secure admin login
+2. 🔁 Automatic conflict checking (no double booking)
 
-📊 Admin dashboard to manage bookings
+3. 🔐 Secure admin login
 
-🔄 Update booking status (booked / completed / cancelled)
+4. 📊 Admin dashboard to manage bookings
 
-🗑️ Delete bookings
+5. 🔄 Update booking status (booked / completed / cancelled)
 
-☁️ Firebase Firestore cloud storage
+6. 🗑️ Delete bookings
 
-🔑 Environment variable based security
+7. ☁️ Firebase Firestore cloud storage
+
+8. 🔑 Environment variable based security
